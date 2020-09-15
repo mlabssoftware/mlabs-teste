@@ -20,6 +20,8 @@ Disponibilizamos o design da interface através do Figma [nesse link](https://ww
 
 Todos os assets podem ser exportados através do próprio figma. Toda a iconografia utilizada pode ser usada através do Fontawesome Free. Caso queira usar imagens para testar, recomendamos usar o [Unsplash](https://unsplash.com/).
 
+Para saber um pouco mais de como usar o Figma no nosso teste, veja nosso [guia básico de Figma](https://github.com/mlabssoftware/mlabs-teste/blob/master/figma.md).
+
 ## Requisitos gerais
 
 ### *Projeto*
