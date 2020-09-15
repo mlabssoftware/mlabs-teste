@@ -20,7 +20,7 @@ Disponibilizamos o design da interface através do Figma [nesse link](https://ww
 
 Todos os assets podem ser exportados através do próprio figma. Toda a iconografia utilizada pode ser usada através do Fontawesome Free. Caso queira usar imagens para testar, recomendamos usar o [Unsplash](https://unsplash.com/).
 
-Para saber um pouco mais de como usar o Figma no nosso teste, veja nosso [guia básico de Figma](https://github.com/mlabssoftware/mlabs-teste/blob/master/figma.md).
+Para saber um pouco mais de como usar o Figma no nosso teste, veja nosso [guia básico de Figma](https://github.com/mlabssoftware/mlabs-teste/blob/master/front-end/figma.md).
 
 ## Requisitos gerais
 
@@ -111,94 +111,24 @@ Para saber um pouco mais de como usar o Figma no nosso teste, veja nosso [guia b
 
 ## API de exemplo sugerida
 
-Você pode alterar o que achar necessário, desde que as informações propostas no layout sejam informadas ao usuário.
+Na pasta [db](https://github.com/mlabssoftware/mlabs-teste/blob/master/front-end/db) você encontra os arquivos JSON a serem usados no projeto.
 
+Lembrando que você pode mudar as informações do JSON e até renomear o que quiser, desde que o que precisamos que seja exibido e a interação que pedimos seja atendida.
+
+Arquivo **social-networks.json**
 ```
 GET /social-networks
-{
-  "data": [
-    {
-      "id": 1,
-      "name": "Facebook",
-      "icon": "facebook-f",
-      "status": disabled
-    },
-    {
-      "id": 2,
-      "name": "Linkedin",
-      "icon": "linkedin-in",
-      "status": enabled
-    },
-    {
-      "id": 3,
-      "name": "Instagram",
-      "icon": "instagram",
-      "status": enabled
-    },
-    {
-      "id": 4,
-      "name": "Youtube",
-      "icon": "youtube",
-      "status": disabled
-    },
-    {
-      "id": 5,
-      "name": "Pinterest",
-      "icon": "pinterest-p",
-      "status": disabled
-    },
-    {
-      "id": 6,
-      "name": "Twitter",
-      "icon": "twitter",
-      "status": disabled
-    }
-  ]
-}
 ```
 
+Arquivo **schedules-status.json**
 ```
 GET /schedules/status
-{
-  "data": [
-    {
-      "id": 1,
-      "name": "Agendado",
-      "color": "#2F80ED"
-    },
-    {
-      "id": 2,
-      "name": "Postado",
-      "color": "#27AE60"
-    },
-    {
-      "id": 3,
-      "name": "Não aprovado",
-      "color": "#F2C94C"
-    },
-    {
-      "id": 4,
-      "name": "Postado com ressalvas",
-      "color": "#EB5757"
-    }
-  ]
-}
 ```
 
+Arquivo **schedules.json**
 ```
 GET /schedules
-{
-  "data": [
-    {
-      "id": 1,
-      "social_network_key": [2, 3],
-      "media": "https://images.unsplash.com/photo-1600025282051-ec0c6bf3137a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
-      "text": "Texto do post",
-      "publication_date": "2020-09-10T15:59:23.922Z",
-      "status_key": 1 
-    }
-  ]
-}
+
 ```
 
 ## O que esperamos

@@ -14,19 +14,19 @@ As interfaces do teste Front-End da mLabs encontram-se [nesse link](https://www.
 
 Nós disponibilizamos para o teste tanto a interface Desktop quanto a Mobile. Para navegar entre elas, basta se orientar pelo menu no canto esquerdo da tela e clicar nas páginas Desktop ou Mobile:
 
-![protótipos navegáveis desktop e mobile](./assets/figma-00.png)
+![protótipos navegáveis desktop e mobile](https://github.com/mlabssoftware/mlabs-teste/blob/master/assets/figma-00.png)
 
 ## Buscando definições de cores e tamanhos
 
 Basta clicar nos elementos da interface para ter acesso a informações das cores e tamanhos definidos nesse objeto e então copiar seu valor e usar em seu teste.
 
-![buscando definições de cores e tamanhos](./assets/figma-01.png)
+![buscando definições de cores e tamanhos](https://github.com/mlabssoftware/mlabs-teste/blob/master/assets/figma-01.png)
 
 ## Buscando definições espaçamentos
 
 Com o Figma também é possível descobrir as margins e paddings dos objetos. Para isso, basta pressionar a tecla **ALT** e posicionar o cursor entre o elemento e o espaço que deseja saber.
 
-![buscando definições de espaçamentos](./assets/figma-02.png)
+![buscando definições de espaçamentos](https://github.com/mlabssoftware/mlabs-teste/blob/master/assets/figma-02.png)
 
 ## Exportando assets
 
@@ -34,11 +34,11 @@ Todos os vetores, imagens ícones na interface podem ser exportados.
 
 Para isso, você primeiro deve selecionar a camada desse elemento que você quer exportar:
 
-![exportando assets](./assets/figma-03.png)
+![exportando assets](https://github.com/mlabssoftware/mlabs-teste/blob/master/assets/figma-03.png)
 
 E então no seu canto direito clicar na opção **Export** onde é possível ter um preview de como ficará essa exportação, além de poder decidir se quer um PNG, JPG ou SVG e até se quer em 1x ou 2x a qualidade:
 
-![exemplo de asset sendo exportado](./assets/figma-04.png)
+![exemplo de asset sendo exportado](https://github.com/mlabssoftware/mlabs-teste/blob/master/assets/figma-04.png)
 
 ## Rodando o protótipo navegável
 
@@ -46,13 +46,13 @@ O Figma também nos permite ter esse protótipo de forma navegável, para que vo
 
 Para rodar, basta ir no seu canto superior direito e clicar no ícone de play. Se você estiver na página de Desktop, vai rodar o protótipo de Desktop, se estiver na página de Mobile, vai rodar o protótipo de Mobile:
 
-![rodando o protótipo](./assets/figma-05.png)
+![rodando o protótipo](https://github.com/mlabssoftware/mlabs-teste/blob/master/assets/figma-05.png)
 
 Após isso, navegue pela página como se estivesse no site realmente. Uma dica para saber quais locais tem interações no protótipo, clique duas vezes na tela e alguns locais ficarão com o fundo azul rapidamente, esses locais possuem interações no protótipo, basta interagir com eles:
 
-![protótipo desktop](./assets/figma-06.png)
+![protótipo desktop](https://github.com/mlabssoftware/mlabs-teste/blob/master/assets/figma-06.png)
 
-![protótipo mobile](./assets/figma-07.png)
+![protótipo mobile](https://github.com/mlabssoftware/mlabs-teste/blob/master/assets/figma-07.png)
 
 ## Dicas
 
